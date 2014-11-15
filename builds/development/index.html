@@ -7,5 +7,18 @@
 <body>
 	<h1>Hello World</h1>
 	<p class="tagline"></p>
+	<article id="mustache"></p>
+
+<script src="js/script.js"></script>
+
+<script id="mustache-template" type="text/template">
+    {{#mustache}}
+      <div class="mustache">
+        <h2>{{name}}</h2>
+        <h3>{{brewery}}</h3>
+        <p><img src="images/artists/{{shortname}}_tn.jpg" alt="Photo of {{name}}" />{{bio}}</p>
+      </div>
+    {{/mustache}}
+  </script>
 </body>
 </html>
