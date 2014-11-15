@@ -1,0 +1,11 @@
+{
+  "name": "workflow-master",
+  "version": "0.0.1",
+  "description": "Beginning workflow master file",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "Ryan Huber"
+}
